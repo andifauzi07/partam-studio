@@ -164,6 +164,7 @@ export const socials = [
 	{
 		name: 'github',
 		url: '/github.png',
+		urlLink: 'https://github.com/andifauzi07/partam-studio',
 	},
 	{
 		name: 'instagram',
