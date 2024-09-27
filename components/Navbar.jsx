@@ -1,11 +1,9 @@
 'use client';
 
 import { motion } from 'framer-motion';
-import { navItems } from '../constants';
 import styles from '../styles';
 import { navVariants } from '../utils/motion';
 import Image from 'next/image';
-import Link from 'next/link';
 
 const Navbar = () => {
 	return (
@@ -33,6 +31,13 @@ const Navbar = () => {
 						</Link>
 					);
 				})} */}
+				<Image
+					src="/menu.svg"
+					alt="menu"
+					width={40}
+					height={40}
+					className="object-contain"
+				/>
 			</div>
 		</motion.nav>
 	);
