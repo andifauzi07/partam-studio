@@ -9,7 +9,9 @@ import { InsightCard, TitleText, TypingText } from '../components';
 import Link from 'next/link';
 
 const Insights = () => (
-	<section className={`${styles.paddings} relative z-10`}>
+	<section
+		className={`${styles.paddings} relative z-10`}
+		id="Projects">
 		<motion.div
 			variants={staggerContainer}
 			initial="hidden"
